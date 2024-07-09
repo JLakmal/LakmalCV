@@ -1,0 +1,18 @@
+.nav-bg-body {
+  background-color: #212936 !important; /* Use !important to override default styles */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-text-white .nav-link,
+.nav-text-white .navbar-brand {
+  color: white !important;
+}
+.nav-text-white .nav-dropdown-item {
+  color: white !important;
+}
+.para-color {
+  color: aliceblue;
+}
+.aboMe {
+  margin-top: 20px;
+}
