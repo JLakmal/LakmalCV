@@ -16,3 +16,17 @@
 .aboMe {
   margin-top: 20px;
 }
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section:nth-child(odd) {
+  background-color: #333a46;
+}
+.section:nth-child(even) {
+  background-color: #212936;
+}
+.section-content {
+  text-align: center;
+}
