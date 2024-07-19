@@ -1,0 +1,20 @@
+.projects-heading {
+  color: #c778dd;
+  margin-top: 40px;
+}
+
+.project-card {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  color: #c778dd;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}

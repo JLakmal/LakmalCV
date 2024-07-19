@@ -1,0 +1,29 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"); */
+.app-bg-body {
+  background-color: #2b394f !important; /* Use !important to override default styles */
+}
+.page-background {
+  background-color: #282c33; /* Darker background color for pages */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  color: white; /* Optional: Set text color for better contrast */
+  padding: 20px; /* Optional: Add some padding */
+}
+.mt-custom-user {
+  margin-top: 150px;
+}
+/* Import the font from  local directory */
+.button-background {
+  background: transparent;
+  border: 2px solid #c778dd;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.margin-quote {
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 150px;
+  font-size: 25px;
+  border: 2px solid #76687a;
+  padding: 10px;
+}

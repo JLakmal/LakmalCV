@@ -3,10 +3,10 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import logo from "../assets/Images/logo.png";
 import { Home, HomeTwo } from "../Pages/Home/Home";
-import Project from "../Pages/Project/Project";
+import Project from "./Project/Project";
 import Blog from "../Pages/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
-import "../Css/home Page.css";
+import "../Css/Nav.css";
 export default class Navibar extends Component {
   render() {
     return (

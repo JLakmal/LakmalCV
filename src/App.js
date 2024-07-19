@@ -2,7 +2,7 @@ import "./App.css";
 // import { Profile, AboutMe } from "./Pages/Home/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navibar from "./Component/Nav";
-import "./Css/bgdark.css";
+
 function App() {
   // const Page = styled.div`
   //   background-color: #282c33;

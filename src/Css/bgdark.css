@@ -1,9 +1,0 @@
-.app-bg-body {
-  background-color: #2b394f !important; /* Use !important to override default styles */
-}
-.page-background {
-  background-color: #282c33; /* Darker background color for pages */
-  min-height: 100vh; /* Ensure it covers the full viewport height */
-  color: white; /* Optional: Set text color for better contrast */
-  padding: 20px; /* Optional: Add some padding */
-}

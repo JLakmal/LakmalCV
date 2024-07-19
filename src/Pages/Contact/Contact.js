@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../../Css/bgdark.css";
+import "../../Css/HomePage.css";
 const Contact = () => {
   return (
     <div className="Contact page-background">

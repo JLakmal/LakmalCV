@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css"; // React Bootstrap
-import "./fonts/FiraCode-Bold.ttf";
+// import "./fonts/FiraCode-Bold.ttf";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
