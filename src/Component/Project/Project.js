@@ -13,23 +13,21 @@ export const ProjectHeading = () => {
 
 const projects = [
   {
-    name: "News Paper",
-    ManTitle: "Main Title",
+    name: "# NewsPaper Delivery App",
+    //
     title: "hello",
     description:
-      "Amet tempor consequat fugiat qui incididunt ullamco veniam. Aliquip aliquip ex qui qui velit. Fugiat laborum elit laboris tempor duis consectetur commodo id velit laborum. ",
-    image:
-      "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
-    link: "https://www.youtube.com/",
+      "A newspaper delivery app was developed, and after the customer selects the name and date of the newspaper, the app checks the price and whether the newspapers are available or not. Then the customer can provide his address through google API. ",
+    link: "https://github.com/JLakmal/newspaper-anddoid-app",
     liveLink: "https://www.youtube.com/",
   },
   {
     name: "News Paper",
     description:
-      "Amet tempor consequat fugiat qui incididunt ullamco veniam. Aliquip aliquip ex qui qui velit. Fugiat laborum elit laboris tempor duis consectetur commodo id velit laborum. Pariatur est consequat anim veniam id in.",
+      "Developed a dynamic website for a leading campus, providing a user friendly platform for students, This robust platform enables students and staff to access and organize their studies efficiently.",
     image:
       "https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg",
-    link: "https://www.youtube.com/",
+    link: "https://github.com/Sajidameen2323/web-project-sem4",
     liveLink: "https://www.youtube.com/",
   },
   {

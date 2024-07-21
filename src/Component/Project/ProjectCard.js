@@ -1,21 +1,32 @@
 // src/Components/ProjectCard.js
 
-import React from "react";
+import React, { useState } from "react";
 import { Card, Button } from "react-bootstrap";
 
 const ProjectCard = ({ project }) => {
+  const [showFullDescription, setShowFullDescription] = useState(false);
+
+  const toggleDescription = () => {
+    setShowFullDescription(!showFullDescription);
+  };
   return (
     <Card className="project-card">
-      <Card.Img variant="top" src={project.image} />
+      {/* <Card.Img variant="top" src={project.image} /> */}
       <Card.Body>
         <Card.Title>
           <a href={project.link} className="project-link">
             {project.name}
           </a>
+          <hr />
         </Card.Title>
-        <Card.Text>{project.description}</Card.Text>
+        <Card.Text
+          className={showFullDescription ? "full-text" : "truncated-text"}
+          onClick={toggleDescription}
+        >
+          {project.description}
+        </Card.Text>
         <Button variant="primary" href={project.liveLink}>
-          Live
+          View
         </Button>
       </Card.Body>
     </Card>
