@@ -4,7 +4,7 @@
 }
 
 .project-card {
-  background-color: #1e1e1e;
+  background-color: transparent;
   color: white;
   border: none;
   margin-bottom: 20px;
@@ -17,4 +17,10 @@
 
 .project-link:hover {
   text-decoration: underline;
+}
+.complete-project {
+  padding-top: 20px;
+  padding-left: 100px;
+  background-color: #282c33;
+  color: white;
 }

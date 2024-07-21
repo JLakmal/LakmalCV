@@ -1,15 +1,23 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "../../Css/Font.css";
 import "../../Css/HomePage.css";
 import "../../Css/Project.css";
+
 import ProjectCard from "./ProjectCard";
+import SmallProjectCard from "./SmallProjectCard";
+
+export const ProjectHeading = () => {
+  return <h2 className="complete-project">#Completed Project</h2>;
+};
 
 const projects = [
   {
     name: "News Paper",
+    ManTitle: "Main Title",
+    title: "hello",
     description:
-      "Amet tempor consequat fugiat qui incididunt ullamco veniam. Aliquip aliquip ex qui qui velit. Fugiat laborum elit laboris tempor duis consectetur commodo id velit laborum. Pariatur est consequat anim veniam id in. Nisi Lorem aliquip enim adipisicing non duis dolore sunt. Veniam velit quis tempor tempor tempor anim cupidatat eiusmod nisi reprehenderit cillum.",
+      "Amet tempor consequat fugiat qui incididunt ullamco veniam. Aliquip aliquip ex qui qui velit. Fugiat laborum elit laboris tempor duis consectetur commodo id velit laborum. ",
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
     link: "https://www.youtube.com/",
@@ -40,19 +48,50 @@ const projects = [
     liveLink: "https://www.youtube.com/",
   },
 ];
-const Project = () => {
+
+const keyProjects = [
+  {
+    name: "News Paper",
+    ManTitle: "Main Title",
+    title: "hello",
+    description:
+      "Amet tempor consequat fugiat qui incididunt ullamco veniam. Aliquip aliquip ex qui qui velit. Fugiat laborum elit laboris tempor duis consectetur commodo id velit laborum. ",
+    image:
+      "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
+    link: "https://www.youtube.com/",
+    liveLink: "https://www.youtube.com/",
+  },
+];
+export const Project = () => {
   return (
-    <div className="Project page-background">
-      <h1>This is Project page</h1>
-      <Row>
-        {projects.map((project, index) => (
-          <Col key={index} md={4}>
-            <ProjectCard project={project} />
-          </Col>
-        ))}
-      </Row>
+    <div className="home page-background">
+      <Container className="" style={{ fontFamily: "FiraCode" }}>
+        <Row className="row-custom-color">
+          {projects.map((project, index) => (
+            <Col key={index} md={4}>
+              <ProjectCard project={project} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </div>
   );
 };
 
 export default Project;
+
+export const SmallProject = () => {
+  return (
+    <div className="home page-background">
+      <Container className="" style={{ fontFamily: "FiraCode" }}>
+        <Row className="row-custom-color">
+          {keyProjects.map((KeyProject, index) => (
+            <Col key={index} md={4}>
+              <SmallProjectCard KeyProject={KeyProject} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
+  );
+};
