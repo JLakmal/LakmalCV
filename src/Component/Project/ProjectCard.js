@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import { Card, Button } from "react-bootstrap";
-
 const ProjectCard = ({ project }) => {
   const [showFullDescription, setShowFullDescription] = useState(false);
 
@@ -18,6 +17,7 @@ const ProjectCard = ({ project }) => {
             {project.name}
           </a>
           <hr />
+          <h5 className="fw-bold">{project.title} </h5>
         </Card.Title>
         <Card.Text
           className={showFullDescription ? "full-text" : "truncated-text"}
