@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
             {project.name}
           </a>
           <hr />
-          <h5 className="fw-bold">{project.title} </h5>
+          <p className="tech-stack-color">{project.title} </p>
         </Card.Title>
         <Card.Text
           className={showFullDescription ? "full-text" : "truncated-text"}

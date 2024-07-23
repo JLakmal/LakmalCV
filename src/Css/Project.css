@@ -6,7 +6,7 @@
 .project-card {
   background-color: transparent;
   color: white;
-  border: none;
+  border: 15px;
   margin-bottom: 20px;
 }
 
@@ -33,4 +33,10 @@
   padding-left: 100px;
   background-color: #282c33;
   color: white;
+}
+.tech-stack-color {
+  color: rgb(140, 136, 134);
+}
+.project-border {
+  border-bottom: 15px;
 }

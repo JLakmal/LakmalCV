@@ -9,7 +9,7 @@ import {
   SmallProject,
   SmallHeading,
 } from "./Project/Project";
-import Blog from "../Pages/Blog/Blog";
+import Blog from "../Component/Blog/Blog";
 import Contact from "../Pages/Contact/Contact";
 import "../Css/Nav.css";
 export default class Navibar extends Component {

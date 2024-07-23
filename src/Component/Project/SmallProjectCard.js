@@ -13,11 +13,11 @@ const SmallProjectCard = ({ KeyProject }) => {
       {/* <Card.Img variant="top" src={project.image} /> */}
       <Card.Body>
         <Card.Title>
-          <a href={KeyProject.link} className="project.link">
+          <a href={KeyProject.link} className="project-link">
             {KeyProject.name}
           </a>
           <hr />
-          {KeyProject.title}
+          <p className="tech-stack-color">{KeyProject.title}</p>
         </Card.Title>
         <Card.Text
           className={showFullDescription ? "full-text" : "truncated-text"}
@@ -26,7 +26,7 @@ const SmallProjectCard = ({ KeyProject }) => {
           {KeyProject.description}
         </Card.Text>
         <Button variant="primary" href="{project.liveLink}">
-          Click
+          View
         </Button>
       </Card.Body>
     </Card>

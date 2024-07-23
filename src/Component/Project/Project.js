@@ -19,14 +19,15 @@ const projects = [
   {
     name: "#NewsPaper Delivery App",
     //
-    title: "",
+    title: "Java| Xml | SQLite | Google Map API",
     description:
-      "A newspaper delivery app was developed, and after the customer selects the name and date of the newspaper, the app checks the price and whether the newspapers are available or not. Then the customer can provide his address through google API. ",
+      " A newspaper delivery app was developed, and after the customer selects the name and date of the newspaper, the app checks the price and whether the newspapers are available or not. Then the customer can provide his address through google API.",
     link: "https://github.com/JLakmal/newspaper-anddoid-app",
     liveLink: "https://github.com/JLakmal/newspaper-anddoid-app",
   },
   {
     name: "#Time campus",
+    title: " Laravel | JavaScript | jQuery | Ajax | Bootstrap | MySQL",
     description:
       "Developed a dynamic website for a leading campus, providing a user friendly platform for students, This robust platform enables students and staff to access and organize their studies efficiently.",
     // image:
@@ -36,6 +37,7 @@ const projects = [
   },
   {
     name: "#Ocean paradise",
+    title: "Laravel | JavaScript | jQuery | Ajax | Bootstrap | MySQL",
     description:
       "Constructed a robust website for a leading tourism company, featuring a dynamic tour customization module and a streamlined user interfacefor effortless customer interactions.",
     // image:
@@ -45,6 +47,7 @@ const projects = [
   },
   {
     name: "#GREDOTS",
+    title: "Laravel | JavaScript | jQuery | Ajax | Bootstrap | MySQL",
     description:
       "Developed comprehensive HRIS (Human Resource Information System) tailored for US corporations. The platform allows business owners to register their companies, manage employees, assign tasks, oversee progress, and handle HR tasks efficiently.",
     image: "../../assets/Images/Project img/AI recommodation.jpg",
@@ -53,6 +56,7 @@ const projects = [
   },
   {
     name: "#Task and project management",
+    title: "Laravel | JavaScript | Tailwind CSS | MySQL",
     description:
       "Task and project management tool is a software application that will allow users to manage and track tasks and projects in a streamlined manner..",
     image: "../../assets/Images/Project img/AI recommodation.jpg",
@@ -61,6 +65,7 @@ const projects = [
   },
   {
     name: "#Seed and farmers management",
+    title: "C# | MySQL",
     description:
       "Farmers can buy seeds, send them for cultivation and new farmers can be cultivated through this system.",
     image: "../../assets/Images/Project img/AI recommodation.jpg",
@@ -72,12 +77,67 @@ const projects = [
 const keyProjects = [
   {
     name: "# Sri Lanka recipe web",
-    title: "hello",
+    title: "HTML | JavaScript | CSS | Firebase",
     description:
-      "Amet tempor consequat fugiat qui incididunt ullamco veniam. Aliquip aliquip ex qui qui velit. Fugiat laborum elit laboris tempor duis consectetur commodo id velit laborum. ",
+      "This web site has Sri lankan unique food recipes & About how to prepare them.",
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
-    link: "https://www.youtube.com/",
+    link: "",
+    liveLink: "",
+  },
+  {
+    name: "# Password Generator",
+    title: "HTML | JavaScript | CSS",
+    description: "This app through can generate random passwords.",
+    image:
+      "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
+    link: "https://github.com/JLakmal/JS.git",
+    liveLink: "",
+  },
+  {
+    name: "# Calculator",
+    title: "HTML | JavaScript | CSS",
+    description:
+      "From this we can simple calculation(Add,Subtraction,Division & multiplication)",
+    image:
+      "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
+    link: "https://github.com/JLakmal/JS.git",
+    liveLink: "https://www.youtube.com/",
+  },
+  {
+    name: "# To-do List app",
+    title: "HTML | JavaScript | CSS",
+    description: "Daily tasks can be easily shared through this program.",
+    image:
+      "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
+    link: "https://github.com/JLakmal/JS.git",
+    liveLink: "https://www.youtube.com/",
+  },
+  {
+    name: "# Color Picker",
+    title: "HTML | JavaScript | CSS",
+    description: "The program has developed how to make a color mixture",
+    image:
+      "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
+    link: "https://github.com/JLakmal/JS.git",
+    liveLink: "https://www.youtube.com/",
+  },
+  {
+    name: "# Google Map clone",
+    title: "HTML | JavaScript | CSS",
+    description: "create clone app use Js,HTML and CSS",
+    image:
+      "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
+    link: "https://github.com/JLakmal/JS.git",
+    liveLink: "https://www.youtube.com/",
+  },
+  {
+    name: "# Text to speech",
+    title: "HTML | JavaScript | CSS",
+    description: "This app has been developed to convert words to speech.",
+    image:
+      "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
+    link: "https://github.com/JLakmal/JS.git",
     liveLink: "https://www.youtube.com/",
   },
 ];

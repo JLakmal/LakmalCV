@@ -8,6 +8,7 @@
   color: white; /* Optional: Set text color for better contrast */
   padding: 20px; /* Optional: Add some padding */
   margin-top: -15px;
+  display: flex;
 }
 .mt-custom-user {
   margin-top: 210px;
