@@ -32,9 +32,11 @@ const Skills = [
   },
 ];
 const Funs = [
-  { name: "I like winter more than summer" },
-  { name: "My favorite movie is The Green Mile" },
-  { name: "My favorite movie is The Green Mile" },
+  { name: "I love rainy days more than sunny days." },
+  { name: "My favorite movie is God Father." },
+  {
+    name: "We have a lot to learn. So it is useless to think that we are perfect.",
+  },
 ];
 const MyConts = [
   { name: "contact here", title: "+94 77 697 7115" },
