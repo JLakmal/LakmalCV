@@ -2,11 +2,13 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../Css/HomePage.css";
 import "../../Css/Font.css";
+import "../../Css/ContactPic.css";
 import { Container, Row, Col } from "react-bootstrap";
 import SkillCard from "./SkillCard";
 import FunFactCard from "./FanFact";
 import ContactCard from "./ContactCard";
 import ImgOne from "../../assets/Images/Project img/Group 53.png";
+import MyImg from "../../assets/Images/Project img/Group 36.png";
 const Skills = [
   {
     name: "Languages",
@@ -61,7 +63,13 @@ export const Contact = () => {
                     to learn about the newest technologies and frameworks.
                   </p>
                 </Col>
-                <Col></Col>
+                <Col>
+                  <img
+                    src={MyImg}
+                    alt="contPic"
+                    className="ContactProfilePic"
+                  />
+                </Col>
               </Row>
             </Container>
           </div>

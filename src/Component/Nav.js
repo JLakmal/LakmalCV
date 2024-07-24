@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import logo from "../assets/Images/logo.png";
+import logo from "../assets/Images/pngwing.com.png";
 import { Home, HomeTwo } from "../Pages/Home/Home";
 import {
   Project,
