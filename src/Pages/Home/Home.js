@@ -6,13 +6,16 @@ import "../../Css/Font.css";
 import "../../Css/profilePic.css";
 import Profile from "../../assets/Images/cv-cover-4to update.png";
 import { Project } from "../../Component/Project/Project";
-
+import { Skill, Contact } from "../Contact/Contact";
 export const Home = () => {
   return (
     <>
       <div className="home page-background">
-        <Container style={{ fontFamily: "FiraCode" }}>
-          <Row className="row-custom-color">
+        <Container
+          style={{ fontFamily: "FiraCode" }}
+          className="row-custom-color"
+        >
+          <Row>
             <Col className="mt-custom-user">
               <h1 className="font:boldfont-weight-bold">
                 I am a
@@ -24,8 +27,8 @@ export const Home = () => {
               </h1>
               <div className="mt-4">
                 <spain style={{ color: "gray" }}>
-                  He crafts responsive websites where technologies meet
-                  creativity
+                  I crafts responsive E-commerce websites where technologies
+                  meet creativity
                 </spain>
               </div>
               <button className="mt-4 p-3 button-background">
@@ -49,16 +52,38 @@ export const Home = () => {
               </div>
             </Col>
           </Row>
-          <Row className="row-custom-color">
+          <Row className="project-name-padding">
             <h1 style={{ fontFamily: "FiraCode" }}>
               <spain style={{ color: "#C778DD" }}>#</spain> Project{" "}
               <spain style={{ color: "#C778DD" }}>--------------</spain> <hr />
             </h1>
           </Row>
-          <Row className="row-custom-color">
+          <Row className="">
             <Col>
-              <Project />
+              <Project pageBg={true} />
             </Col>
+          </Row>
+          <Row className="about-name-padding">
+            <h1 style={{ fontFamily: "FiraCode" }}>
+              <spain style={{ color: "#C778DD" }}>#</spain>Skills{" "}
+              <spain style={{ color: "#C778DD" }}>--------------</spain> <hr />
+            </h1>
+          </Row>
+          <Row className="">
+            <Col className="">
+              <Skill HideHeding={true} />
+            </Col>
+          </Row>
+          <Row className="skill-name-padding">
+            <h1 style={{ fontFamily: "FiraCode" }}>
+              <spain style={{ color: "#C778DD" }}>#</spain>About me{" "}
+              <spain style={{ color: "#C778DD" }}>--------------</spain> <hr />
+            </h1>
+            <Row className="">
+              <Col className="">
+                <Contact />
+              </Col>
+            </Row>
           </Row>
         </Container>
       </div>
@@ -66,6 +91,6 @@ export const Home = () => {
   );
 };
 
-export const HomeTwo = () => {
-  return <div className="home page-background">dasdasdasd</div>;
-};
+// export const HomeTwo = () => {
+//   return <div className="home page-background">dasdasdasd</div>;
+// };

@@ -141,9 +141,9 @@ const keyProjects = [
     liveLink: "https://www.youtube.com/",
   },
 ];
-export const Project = () => {
+export const Project = ({ pageBg }) => {
   return (
-    <div className="home page-background">
+    <div className={pageBg ? "" : "page-background"}>
       <Container className="" style={{ fontFamily: "FiraCode" }}>
         <Row className="row-custom-color">
           {projects.map((project, index) => (

@@ -49,8 +49,8 @@ export const Contact = () => {
                 <Col className="custom-about-user">
                   <p>Hello,I'm Lakmal!</p>
                   <p>
-                    I'm qulfied and proffsional full-stack developer in
-                    Kandy,Sri Lanka. I can develop responcive e-commmrece
+                    I'm qualifed and professional full-stack developer in
+                    Kandy,Sri Lanka. I can develop responsive e-Commerce
                     websites from scratch and raise them into modern
                     user-friendly web experiences.
                   </p>
@@ -65,75 +65,99 @@ export const Contact = () => {
               </Row>
             </Container>
           </div>
-          <div className="">
-            <Container style={{ fontFamily: "FiraCode" }}>
-              <div>
-                <h2>
-                  <span style={{ color: "#C778DD" }}>#</span>Skills
-                </h2>
-                <Container
-                  className="custom-padding-top"
-                  style={{ fontFamily: "FiraCode" }}
-                >
-                  <Row className="">
-                    {Skills.map((MySkill, index) => (
-                      <Col key={index} md={4}>
-                        <SkillCard MySkill={MySkill} />
-                      </Col>
-                    ))}
-                  </Row>
-                </Container>
-                {/* Fun fact section */}
-                <h2>
-                  <span style={{ color: "#C778DD" }}>#</span>My-fun-facts
-                </h2>
-                <div>
-                  <Container style={{ fontFamily: "FiraCode" }} className="">
-                    <Row className="">
-                      <Col className="custom-about-user funlist-font-size">
-                        <Row className="">
-                          {Funs.map((MyFun, index) => (
-                            <Col key={index} md={6}>
-                              <FunFactCard MyFun={MyFun} />
-                            </Col>
-                          ))}
-                        </Row>
-                      </Col>
-                      <Col>
-                        <img src={ImgOne} alt="dada" className="fun-fact-pic" />
-                      </Col>
-                    </Row>
-                  </Container>{" "}
-                </div>
-              </div>
-              {/* Contact us */}
-              <h2>
-                <span style={{ color: "#C778DD" }}>#</span>Contacts
-              </h2>
-              <Container>
-                <Row className="">
-                  <Col className="custom-about-user">
-                    I’m interested in freelance opportunities. However, if you
-                    have other request or question, don’t hesitate to contact me
-                  </Col>
-                  <Col>
-                    {/* <img src={ImgOne} alt="dada" className="fun-fact-pic" /> */}
-                    <Row className="">
-                      {MyConts.map((MyCont, index) => (
-                        <Col key={index} md={11}>
-                          <ContactCard MyCont={MyCont} />
-                        </Col>
-                      ))}
-                    </Row>
-                  </Col>
-                </Row>
-              </Container>
-            </Container>
-          </div>
+          <div className=""></div>
+        </Container>
+      </div>
+    </>
+  );
+};
+// Container className="row-custom-color
+export default Contact;
+
+export const Skill = ({ HideHeding }) => {
+  return (
+    <>
+      <div className="contact-page">
+        <Container
+          className="custom-padding-top row-custom-color"
+          style={{ fontFamily: "FiraCode" }}
+        >
+          {!HideHeding && (
+            <h2>
+              <span style={{ color: "#C778DD" }}>#</span>Skills
+            </h2>
+          )}
+          <Row>
+            {Skills.map((MySkill, index) => (
+              <Col key={index} md={4}>
+                <SkillCard MySkill={MySkill} />
+              </Col>
+            ))}
+          </Row>
         </Container>
       </div>
     </>
   );
 };
 
-export default Contact;
+export const MyFun = () => {
+  return (
+    <div className="contact-page">
+      <div>
+        <Container
+          style={{ fontFamily: "FiraCode" }}
+          className="custom-padding-top row-custom-color"
+        >
+          <h2>
+            <span style={{ color: "#C778DD" }}>#</span>My-fun-facts
+          </h2>
+          <Row className="">
+            <Col className="custom-about-user funlist-font-size">
+              <Row className="">
+                {Funs.map((MyFun, index) => (
+                  <Col key={index} md={6}>
+                    <FunFactCard MyFun={MyFun} />
+                  </Col>
+                ))}
+              </Row>
+            </Col>
+            <Col>
+              <img src={ImgOne} alt="dada" className="fun-fact-pic" />
+            </Col>
+          </Row>
+        </Container>{" "}
+      </div>
+    </div>
+  );
+};
+
+export const ContactInfo = () => {
+  return (
+    <div className="contact-page">
+      <Container
+        style={{ fontFamily: "FiraCode" }}
+        className="custom-padding-top row-custom-color"
+      >
+        <h2>
+          <span style={{ color: "#C778DD" }}>#</span>Contacts
+        </h2>
+        <Row className="">
+          <Col className="custom-about-user">
+            I’m interested in freelance opportunities. However, if you have
+            other request or question, don’t hesitate to contact me
+          </Col>
+          <Col>
+            {/* <img src={ImgOne} alt="dada" className="fun-fact-pic" /> */}
+            <Row className="">
+              {MyConts.map((MyCont, index) => (
+                <Col key={index} md={11}>
+                  <ContactCard MyCont={MyCont} />
+                </Col>
+              ))}
+            </Row>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+};

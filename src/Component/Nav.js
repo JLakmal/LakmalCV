@@ -10,7 +10,7 @@ import {
   SmallHeading,
 } from "./Project/Project";
 import Blog from "../Component/Blog/Blog";
-import Contact from "../Pages/Contact/Contact";
+import { Contact, Skill, MyFun, ContactInfo } from "../Pages/Contact/Contact";
 import "../Css/Nav.css";
 export default class Navibar extends Component {
   render() {
@@ -36,9 +36,9 @@ export default class Navibar extends Component {
                 <Nav.Link as={Link} to="/project">
                   #Project
                 </Nav.Link>
-                <Nav.Link as={Link} to="/blog">
+                {/* <Nav.Link as={Link} to="/blog">
                   #Blog
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link as={Link} to="/contact">
                   #Contact
                 </Nav.Link>
@@ -54,7 +54,7 @@ export default class Navibar extends Component {
               element={
                 <>
                   <Home />
-                  <HomeTwo />{" "}
+                  {/* <HomeTwo />{" "} */}
                 </>
               }
             />
@@ -70,7 +70,17 @@ export default class Navibar extends Component {
               }
             />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route
+              path="/contact"
+              element={
+                <>
+                  <Contact />
+                  <Skill />
+                  <ContactInfo />
+                  <MyFun />
+                </>
+              }
+            />
           </Routes>
         </div>
       </Router>
