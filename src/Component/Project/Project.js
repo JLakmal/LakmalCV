@@ -42,8 +42,8 @@ const projects = [
       "Constructed a robust website for a leading tourism company, featuring a dynamic tour customization module and a streamlined user interfacefor effortless customer interactions.",
     // image:
     //   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGwVd07rcBUxKVqf17F_Li5fy-a_zni7JuEQ&s",
-    // link: "https://www.youtube.com/",
-    // liveLink: "https://www.youtube.com/",
+    // link: "https://github.com/JLakmal/JS.git",
+    // liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "#GREDOTS",
@@ -51,8 +51,8 @@ const projects = [
     description:
       "Developed comprehensive HRIS (Human Resource Information System) tailored for US corporations. The platform allows business owners to register their companies, manage employees, assign tasks, oversee progress, and handle HR tasks efficiently.",
     image: "../../assets/Images/Project img/AI recommodation.jpg",
-    link: "https://www.youtube.com/",
-    liveLink: "https://www.youtube.com/",
+    // link: "https://github.com/JLakmal/JS.git",
+    // liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "#Task and project management",
@@ -60,8 +60,8 @@ const projects = [
     description:
       "Task and project management tool is a software application that will allow users to manage and track tasks and projects in a streamlined manner..",
     image: "../../assets/Images/Project img/AI recommodation.jpg",
-    link: "https://www.youtube.com/",
-    liveLink: "https://www.youtube.com/",
+    // link: "https://github.com/JLakmal/JS.git",
+    // liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "#Seed and farmers management",
@@ -69,8 +69,8 @@ const projects = [
     description:
       "Farmers can buy seeds, send them for cultivation and new farmers can be cultivated through this system.",
     image: "../../assets/Images/Project img/AI recommodation.jpg",
-    link: "https://www.youtube.com/",
-    liveLink: "https://www.youtube.com/",
+    // link: "https://github.com/JLakmal/JS.git",
+    // liveLink: "https://github.com/JLakmal/JS.git",
   },
 ];
 
@@ -83,7 +83,7 @@ const keyProjects = [
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
     link: "",
-    liveLink: "",
+    liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "# Password Generator",
@@ -91,8 +91,8 @@ const keyProjects = [
     description: "This app through can generate random passwords.",
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
-    link: "https://github.com/JLakmal/JS.git",
-    liveLink: "",
+    link: "",
+    liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "# Calculator",
@@ -102,7 +102,7 @@ const keyProjects = [
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
     link: "https://github.com/JLakmal/JS.git",
-    liveLink: "https://www.youtube.com/",
+    liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "# To-do List app",
@@ -111,7 +111,7 @@ const keyProjects = [
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
     link: "https://github.com/JLakmal/JS.git",
-    liveLink: "https://www.youtube.com/",
+    liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "# Color Picker",
@@ -120,7 +120,7 @@ const keyProjects = [
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
     link: "https://github.com/JLakmal/JS.git",
-    liveLink: "https://www.youtube.com/",
+    liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "# Google Map clone",
@@ -129,7 +129,7 @@ const keyProjects = [
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
     link: "https://github.com/JLakmal/JS.git",
-    liveLink: "https://www.youtube.com/",
+    liveLink: "https://github.com/JLakmal/JS.git",
   },
   {
     name: "# Text to speech",
@@ -138,7 +138,7 @@ const keyProjects = [
     image:
       "https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg",
     link: "https://github.com/JLakmal/JS.git",
-    liveLink: "https://www.youtube.com/",
+    liveLink: "https://github.com/JLakmal/JS.git",
   },
 ];
 export const Project = ({ pageBg }) => {

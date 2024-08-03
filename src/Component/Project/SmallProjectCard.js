@@ -25,7 +25,7 @@ const SmallProjectCard = ({ KeyProject }) => {
         >
           {KeyProject.description}
         </Card.Text>
-        <Button variant="primary" href="{project.liveLink}">
+        <Button variant="primary" href={KeyProject.liveLink}>
           View
         </Button>
       </Card.Body>
