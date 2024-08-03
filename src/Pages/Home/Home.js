@@ -17,7 +17,7 @@ export const Home = () => {
         >
           <Row>
             <Col className="mt-custom-user">
-              <h1 className="font:boldfont-weight-bold">
+              <h1 className="font:bold font-weight-bold">
                 I am a
                 <spain style={{ color: "#C778DD" }}>
                   {" "}

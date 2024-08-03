@@ -45,7 +45,7 @@ const MyConts = [
 export const Contact = () => {
   return (
     <>
-      <div className="contact-page">
+      <div className="contact-page page-background">
         <Container className="row-custom-color">
           <div className="row-custom-color">
             <Container style={{ fontFamily: "FiraCode" }} className="">
@@ -87,7 +87,7 @@ export default Contact;
 export const Skill = ({ HideHeding }) => {
   return (
     <>
-      <div className="contact-page">
+      <div className="contact-page page-background">
         <Container
           className="custom-padding-top row-custom-color"
           style={{ fontFamily: "FiraCode" }}
@@ -112,7 +112,7 @@ export const Skill = ({ HideHeding }) => {
 
 export const MyFun = () => {
   return (
-    <div className="contact-page">
+    <div className="contact-page page-background">
       <div>
         <Container
           style={{ fontFamily: "FiraCode" }}
@@ -143,7 +143,7 @@ export const MyFun = () => {
 
 export const ContactInfo = () => {
   return (
-    <div className="contact-page">
+    <div className="contact-page page-background">
       <Container
         style={{ fontFamily: "FiraCode" }}
         className="custom-padding-top row-custom-color"

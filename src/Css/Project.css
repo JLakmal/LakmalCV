@@ -25,6 +25,7 @@
   padding-left: 100px;
   background-color: #282c33;
   color: white;
+  min-width: 100vh;
 }
 .key-project {
   margin-top: -60px;
@@ -33,6 +34,7 @@
   padding-left: 100px;
   background-color: #282c33;
   color: white;
+  min-width: 100vh;
 }
 .tech-stack-color {
   color: rgb(140, 136, 134);

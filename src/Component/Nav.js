@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import logo from "../assets/Images/pngwing.com.png";
-import { Home, HomeTwo } from "../Pages/Home/Home";
+import { Home } from "../Pages/Home/Home";
 import {
   Project,
   ProjectHeading,
@@ -12,11 +12,12 @@ import {
 import Blog from "../Component/Blog/Blog";
 import { Contact, Skill, MyFun, ContactInfo } from "../Pages/Contact/Contact";
 import "../Css/Nav.css";
+
 export default class Navibar extends Component {
   render() {
     return (
       <Router>
-        <Navbar expand="lg" className=" nav-bg-body fixed-top   ">
+        <Navbar expand="lg" className="nav-bg-body fixed-top">
           <Container>
             <Navbar.Brand href="/">
               <img
@@ -36,9 +37,6 @@ export default class Navibar extends Component {
                 <Nav.Link as={Link} to="/project">
                   #Project
                 </Nav.Link>
-                {/* <Nav.Link as={Link} to="/blog">
-                  #Blog
-                </Nav.Link> */}
                 <Nav.Link as={Link} to="/contact">
                   #Contact
                 </Nav.Link>
@@ -47,14 +45,13 @@ export default class Navibar extends Component {
           </Container>
         </Navbar>
 
-        <div style={{ marginTop: "70px" }}>
+        <div style={{ marginTop: "20px" }}>
           <Routes>
             <Route
               path="/"
               element={
                 <>
                   <Home />
-                  {/* <HomeTwo />{" "} */}
                 </>
               }
             />
